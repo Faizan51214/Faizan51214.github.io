@@ -290,3 +290,24 @@ header .profile-pic img:hover {
     box-shadow: 0 0 25px rgba(255, 152, 0, 1); /* Stronger glow on hover */
 }
 
+.resume-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.resume-btn {
+    background-color: #ff9800;
+    color: #121212;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    display: inline-block;
+}
+
+.resume-btn:hover {
+    background-color: #e68900;
+    transform: scale(1.05);
+}
+
